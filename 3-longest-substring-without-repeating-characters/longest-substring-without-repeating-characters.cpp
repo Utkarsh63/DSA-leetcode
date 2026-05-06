@@ -23,7 +23,7 @@ public:
             }
            
         }
-        j++;
+        
         return ans;
     }
 };
