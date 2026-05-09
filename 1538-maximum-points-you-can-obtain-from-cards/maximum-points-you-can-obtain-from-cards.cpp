@@ -3,7 +3,7 @@ public:
     int maxScore(vector<int>& cardPoints, int k) {
         int lsum = 0;
         int max_sum = 0;
-        for(int i=0; i<k; i++){
+        for(int i=0; i<=k-1; i++){
             lsum += cardPoints[i];
         }
         max_sum = lsum;
