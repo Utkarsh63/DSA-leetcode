@@ -9,7 +9,7 @@ public:
             while(!st.empty() && st.top() <= nums[i % n]){
                 st.pop();
             }
-            if(i < nums.size()){
+            if(i < n){
                 ans[i] = st.empty() ? -1 : st.top();
             }
             st.push(nums[i % n]);
